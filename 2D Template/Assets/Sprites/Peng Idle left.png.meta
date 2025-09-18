@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 98244ffdb6f1393418ad62af78aded31
+guid: 32120a736f478144cb7a1f0514434311
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5909387907579768169
-    second: Peng walk_0
+      213: -3762410031846049800
+    second: Peng Idle left_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Peng walk_0
+      name: Peng Idle left_0
       rect:
         serializedVersion: 2
         x: 16
-        y: 10
-        width: 76
-        height: 108
+        y: 13
+        width: 77
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 96de74f1efc520250800000000000000
-      internalID: 5909387907579768169
+      spriteID: 8f73378920c39cbc0800000000000000
+      internalID: -3762410031846049800
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Peng Idle left_0: -3762410031846049800
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

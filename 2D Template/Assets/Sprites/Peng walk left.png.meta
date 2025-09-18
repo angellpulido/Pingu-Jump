@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1d34aa50156456d4a873b1614938feea
+guid: 2a0001cd6e58c1a428ff638e9bddbba8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7632430115491448456
-    second: Peng Jump_0
+      213: 5126473259730830037
+    second: Peng walk left_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Peng Jump_0
+      name: Peng walk left_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 4
-        width: 87
-        height: 118
+        x: 16
+        y: 10
+        width: 76
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87973219f39241690800000000000000
-      internalID: -7632430115491448456
+      spriteID: 5d28bccb444e42740800000000000000
+      internalID: 5126473259730830037
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Peng Jump_0: -7632430115491448456
+      Peng walk left_0: 5126473259730830037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
