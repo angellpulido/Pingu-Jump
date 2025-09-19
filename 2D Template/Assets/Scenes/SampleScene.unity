@@ -1165,6 +1165,7 @@ Animator:
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!58 &1303817031
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1659,6 +1660,8 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> 06be6b72a7224292b0f9abb9dad6f766156704a2
+=======
+>>>>>>> b8cd76cfc555d01531f2f0146d86f9618b51d95a
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1671,5 +1674,8 @@ SceneRoots:
   - {fileID: 1120781177}
 =======
   - {fileID: 1218248441}
+<<<<<<< HEAD
   - {fileID: 2115617710}
 >>>>>>> 06be6b72a7224292b0f9abb9dad6f766156704a2
+=======
+>>>>>>> b8cd76cfc555d01531f2f0146d86f9618b51d95a
