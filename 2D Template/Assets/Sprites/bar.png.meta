@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Peng walk_0: 5909387907579768169
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
