@@ -21,6 +21,8 @@ public class Platformermovement : MonoBehaviour
     void Update()
     {
         rb2d.linearVelocityX = _movement;
+
+        
     }
 
     public void Move(InputAction.CallbackContext ctx)
@@ -33,5 +35,6 @@ public class Platformermovement : MonoBehaviour
         }
         _movement = ctx.ReadValue<Vector2>().x * moveSpeed;
         animator.SetFloat("InputX", _movement);
+    
     }
 }
