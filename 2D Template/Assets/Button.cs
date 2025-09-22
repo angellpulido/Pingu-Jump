@@ -14,7 +14,7 @@ public class Button : MonoBehaviour
 
     float holdTime;
 
-    public GameObject @Player;
+ 
     
     
 
