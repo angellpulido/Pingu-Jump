@@ -10,7 +10,7 @@ public class Playerr : MonoBehaviour
     {
 
         rb = GetComponent<Rigidbody2D>();
-        
+
     }
     public static void DoJump(float JumpForce)
 
@@ -18,9 +18,5 @@ public class Playerr : MonoBehaviour
         rb.AddForce(Vector2.up * JumpForce);
 
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

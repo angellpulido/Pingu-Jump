@@ -31,10 +31,13 @@ public class Platformermovement : MonoBehaviour
         if (ctx.canceled) 
         {
             animator.SetBool("IsWalking", false);
-            animator.SetFloat("lastinputX", _movement);
+            animator.SetFloat("InputX", _movement);
         }
         _movement = ctx.ReadValue<Vector2>().x * moveSpeed;
         animator.SetFloat("InputX", _movement);
-    
+        if (Input.GetKey(KeyCode.A))
+        {
+            rb2d.transform.localScale = new Vector3(-1, 0, 1);
+        }
     }
 }
