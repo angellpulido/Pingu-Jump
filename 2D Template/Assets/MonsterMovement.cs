@@ -10,7 +10,7 @@ public class MonsterMovement : MonoBehaviour
     public Transform playerTransform;
     public bool isChasing;
     public float chaseDistance;
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -52,6 +52,7 @@ public class MonsterMovement : MonoBehaviour
                 {
                     transform.localScale = new Vector3(1, 1, 1);
                     patrolDestination = 0;
+                    
                 }
             }
         }

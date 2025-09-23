@@ -8,7 +8,9 @@ public class Platformermovement : MonoBehaviour
     public Rigidbody2D rb2d;
 
     private float _movement;
-    private Animator animator; 
+    private Animator animator;
+
+    public FoodManager fm;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -22,13 +24,13 @@ public class Platformermovement : MonoBehaviour
     {
         rb2d.linearVelocityX = _movement;
 
-        
+
     }
 
     public void Move(InputAction.CallbackContext ctx)
     {
         animator.SetBool("IsWalking", true);
-        if (ctx.canceled) 
+        if (ctx.canceled)
         {
             animator.SetBool("IsWalking", false);
             animator.SetFloat("InputX", _movement);
@@ -38,6 +40,15 @@ public class Platformermovement : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             rb2d.transform.localScale = new Vector3(-1, 0, 1);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Food"))
+        {
+            Destroy(other.gameObject);
+            fm.foodCount++;
         }
     }
 }
