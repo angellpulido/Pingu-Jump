@@ -12,6 +12,27 @@ public class Platformermovement : MonoBehaviour
 
     public FoodManager fm;
 
+   
+        
+    public Player_Combat player_combat;
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Slash"))
+        {
+
+            player_combat.Attack();
+            
+        }
+
+    }
+
+
+    public void FixedUpdate()
+    {
+        rb2d.linearVelocityX = _movement;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -19,13 +40,7 @@ public class Platformermovement : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        rb2d.linearVelocityX = _movement;
 
-
-    }
 
     public void Move(InputAction.CallbackContext ctx)
     {
