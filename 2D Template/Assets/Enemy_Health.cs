@@ -2,8 +2,16 @@ using UnityEngine;
 
 public class Enemy_Health : MonoBehaviour
 {
+
+    SoundEffect soundEffect;
+
     public int currentHealth;
     public int maxHealth;
+
+    public void Awake()
+    {
+        soundEffect = GameObject.FindGameObjectWithTag("Audio").GetComponent<SoundEffect>();
+    }
 
     private void Start()
     {
@@ -22,6 +30,7 @@ public class Enemy_Health : MonoBehaviour
 
         else if ( currentHealth <= 0)
         {
+            soundEffect.PlaySFX(soundEffect.death);
             Destroy(gameObject);
         }
     
