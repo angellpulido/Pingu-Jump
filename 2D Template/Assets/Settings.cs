@@ -5,6 +5,6 @@ public class Settings : MonoBehaviour {
  
     public void LoadScene()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(2);
     }
 }
